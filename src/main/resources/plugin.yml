@@ -1,0 +1,9 @@
+name: homesplus
+version: 1.0.1
+main: org.jeft.homes.Homesplus
+api-version: '1.16'
+commands:
+  sethome:
+    description: Set a player home or waypoint
+    usage: /<command>
+    permission: homesplus.sethome
