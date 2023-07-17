@@ -1,0 +1,3 @@
+Config:
+    welcome: true
+    welcome-msg: "Hi"

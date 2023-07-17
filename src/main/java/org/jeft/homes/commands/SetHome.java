@@ -14,6 +14,7 @@ public class SetHome implements CommandExecutor{
     public SetHome(Homesplus plugin){
         this.plugin = plugin;
     }
+
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(!(sender instanceof Player)) {
@@ -21,8 +22,7 @@ public class SetHome implements CommandExecutor{
             return false;
         } else {
             Player jugador = (Player) sender;
-            jugador.getLocation()
-            jugador.sendTitle("Has sido llevado a","$home",10,40,10);
+            jugador.sendTitle("Has sido llevado a","",10,40,10);
             return true;
         }
     }
